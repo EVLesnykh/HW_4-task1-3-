@@ -8,15 +8,15 @@
 //Поэтому сделала два варианта решения задачи:
 
 //вариант 1
-// int[] array = new int[8];
-// Console.WriteLine($"Длина массива: {array.Length}");
-// Console.Write("[");
-// for (int i = 0; i < array.Length; i++)
-// {
-//   array[i] = new Random().Next(0, 50);
-//   Console.Write($"{array[i]} ");
-// }
-// Console.Write("]");
+int[] array = new int[8];
+Console.WriteLine($"Длина массива: {array.Length}");
+Console.Write("[");
+for (int i = 0; i < array.Length; i++)
+{
+  array[i] = new Random().Next(0, 50);
+  Console.Write($"{array[i]} ");
+}
+Console.Write("]");
 
 //вариант 2
 Console.Write("Введите длину массива: ");
